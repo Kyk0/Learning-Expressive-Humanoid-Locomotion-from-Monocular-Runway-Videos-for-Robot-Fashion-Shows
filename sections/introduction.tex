@@ -1,0 +1,11 @@
+\section{INTRODUCTION}
+
+The catwalk is a specialized form of expressive locomotion in which posture, cadence, stride, foot placement, arm motion, gaze, posing, and turning are coordinated to present a garment and communicate the aesthetic of a fashion show. Unlike ordinary walking, its objective is not only stable movement, but also the control of silhouette, drape, rhythm, and perceived character. Catwalk styles vary across designers, garments, footwear, and show direction, making runway walking a context-dependent performance rather than a single fixed gait.
+
+Humanoid robots used in fashion shows typically rely on conventional locomotion policies optimized for balance, velocity tracking, and disturbance recovery. While these policies allow robots to traverse a runway, they do not address the expressive or garment-presentation functions of the catwalk. Prior work has examined expressive robot gait and isolated fashion-model-like motion, but there remains no general data-driven framework for learning multiple runway styles from human demonstrations and transferring them to physical humanoids. We therefore formulate robotic catwalking as a style-conditioned locomotion problem evaluated through both quantitative measures of motion and stability and qualitative judgments of style, confidence, and fashion-show appropriateness.
+
+Video is a simple way to provide such a motion. Instead of manually creating robot trajectories, the user can show the desired behavior in a monocular video. The main difficulty is that motion recovery, retargeting, training, and deployment are usually handled by separate tools with different formats and configurations.
+
+In this work, we present an end-to-end pipeline that takes a human video and produces a policy ready to run on a humanoid robot. The user provides the video and selects the target robot, while the pipeline handles motion recovery, retargeting, correction, training, simulation testing, and deployment.
+
+We demonstrate the pipeline on the Booster K1 using runway-style catwalk motion. Catwalk walking is our main example, but the same workflow can be used for other custom motions in fashion, entertainment, and related applications.

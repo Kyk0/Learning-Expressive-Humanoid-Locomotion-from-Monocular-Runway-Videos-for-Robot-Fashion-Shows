@@ -1,0 +1,11 @@
+\section{RESULTS}
+
+\subsection{Physical Execution}
+
+The learned policy completed all 20 physical trials without falling, with approximately 23 steps in each trial. The robot showed narrow foot placement and coordinated leg, torso, and arm movements. The first step sometimes caused a small lateral offset, after which the robot continued along a stable path approximately parallel to the runway line.
+
+\subsection{Foot-Placement Comparison}
+
+We compared the lateral distance between consecutive foot placements using 12 steps from the standard K1 walk and 23 steps from the learned catwalk policy. Negative values indicate crossover steps, where one foot was placed beyond the other foot laterally.
+
+The standard K1 walk produced step widths between 5.1 and 11.4 cm, while the catwalk policy stayed between $-0.8$ and 1.8 cm. The learned policy therefore achieved substantially narrower foot placement, with occasional crossover steps, compared with the standard K1 walk.

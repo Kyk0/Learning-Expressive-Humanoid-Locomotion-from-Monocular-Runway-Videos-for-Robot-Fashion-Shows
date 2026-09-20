@@ -1,0 +1,8 @@
+\vspace{-1 mm}
+\section{RELATED WORK}
+\vspace{-1 mm}
+Gravity-View Human Motion Recovery (GVHMR)~\cite{gvhmr} converts a video into 3D human motion aligned with the ground. General Motion Retargeting (GMR)~\cite{gmr} then adapts the motion to the selected robot.
+
+BeyondMimic~\cite{beyondmimic} uses the retargeted motion to train a tracking policy in the Booster training framework~\cite{boostertrain}. The policy is tested and run on the robot with the Booster deployment framework~\cite{boosterdeploy}. These frameworks cover separate stages of the process but do not provide a single workflow from video to robot.
+
+Previous work has explored fashion-inspired and expressive robot walking. Or~\cite{fashionmodelrobot} simulated fashion-model-like motions on a humanoid, while Huzaifa et al.~\cite{expressivegait} generated and evaluated different expressive gaits. Kobayashi et al.~\cite{catwalkstyles} identified leg crossing as a difference among runway styles, motivating our use of step width to compare the learned policy with the standard K1 walk.

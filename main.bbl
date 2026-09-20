@@ -1,0 +1,19 @@
+\begin{thebibliography}{99}
+
+\bibitem{gvhmr} Z. Shen, H. Pi, Y. Xia, Z. Cen, S. Peng, Z. Hu, H. Bao, R. Hu, and X. Zhou, ``World-grounded human motion recovery via gravity-view coordinates,'' in \emph{Proc. SIGGRAPH Asia 2024 Conf. Papers}, Tokyo, Japan, 2024, Art. no. 144, pp. 1--11, doi: 10.1145/3680528.3687565.
+
+\bibitem{gmr} J. P. Ara\'{u}jo, Y. Ze, P. Xu, J. Wu, and C. K. Liu, ``Retargeting matters: General motion retargeting for humanoid motion tracking,'' \emph{arXiv preprint arXiv:2510.02252}, 2025, doi: 10.48550/arXiv.2510.02252.
+
+\bibitem{beyondmimic} T. E. Truong, Q. Liao, X. Huang, G. Tevet, C. K. Liu, and K. Sreenath, ``BeyondMimic: From motion tracking to versatile humanoid control via guided diffusion,'' \emph{arXiv preprint arXiv:2508.08241}, 2025, doi: 10.48550/arXiv.2508.08241.
+
+\bibitem{boostertrain} Booster Robotics, \emph{booster\_train}, GitHub repository. [Online]. Available: \url{https://github.com/BoosterRobotics/booster_train}. Accessed: Aug. 5, 2026.
+
+\bibitem{boosterdeploy} Booster Robotics, \emph{booster\_deploy}, GitHub repository. [Online]. Available: \url{https://github.com/BoosterRobotics/booster_deploy}. Accessed: Aug. 5, 2026.
+
+\bibitem{catwalkstyles} Y. Kobayashi, S. Saito, and T. Murahori, ``Classification of fashion models' walking styles using publicly available data, pose detection technology, and multivariate analysis: From past to current trendy walking styles,'' \emph{Sensors}, vol. 24, no. 12, Art. no. 3865, 2024, doi: 10.3390/s24123865.
+
+\bibitem{fashionmodelrobot} J. Or, ``Computer simulations of a humanoid robot capable of walking like fashion models,'' \emph{IEEE Trans. Syst., Man, Cybern. C, Appl. Rev.}, vol. 42, no. 2, pp. 241--248, Mar. 2012, doi: 10.1109/TSMCC.2011.2115238.
+
+\bibitem{expressivegait} U. Huzaifa, C. Maguire, and A. LaViers, ``Toward an expressive bipedal robot: Variable gait synthesis and validation in a planar model,'' \emph{Int. J. Social Robot.}, vol. 12, no. 1, pp. 129--141, Jan. 2020, doi: 10.1007/s12369-019-00547-6.
+
+\end{thebibliography}
